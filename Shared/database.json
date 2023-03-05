@@ -1,0 +1,134 @@
+{
+  "capsules": [
+    {
+      "categories": [
+        "Intensity",
+        "Roast"
+      ],
+      "description": "Ristretto is an espresso capsule that delivers an intense and bold coffee experience. This espresso is made from a blend of the finest Arabica and Robusta beans, selected and roasted to perfection to bring out their rich flavors and aroma. With its short extraction time and reduced water volume, ristretto is known for its strong and concentrated flavor, which is both smooth and satisfying. The coffee has a thick and creamy texture with hints of dark chocolate and caramel, making it perfect for those who prefer a more robust coffee. Ristretto is a great choice for espresso lovers who want a full-bodied, bold coffee experience that is sure to awaken the senses and start the day off right. Whether enjoyed on its own or used as a base for other coffee beverages, ristretto is a true coffee lover's delight.",
+      "flavorProfile": "Intense, full-bodied, fruity",
+      "imageUrl": "https://i.ebayimg.com/images/g/7cwAAOSw6EhUNbJq/s-l500.jpg",
+      "intensity": 9,
+      "name": "Ristretto",
+      "origin": "South America and East Africa",
+      "price": 1
+    },
+    {
+      "categories": [
+        "Intensity",
+        "Flavor"
+      ],
+      "description": "A dark roast of South and Central American Arabicas, with cocoa notes and a hint of cereal for a velvety smoothness.",
+      "flavorProfile": "Intense, creamy, cocoa",
+      "imageUrl": "https://www.nespresso.com/ecom/medias/sys_master/public/16071282294814/MicrosoftTeams-image-21-.png",
+      "intensity": 10,
+      "name": "Arpeggio",
+      "origin": "South America and Central America",
+      "price": 0.75
+    },
+    {
+      "categories": [
+        "Roast",
+        "Flavor"
+      ],
+      "description": "A well-balanced blend of Latin American and African Arabicas, with notes of caramel and toasted bread.",
+      "flavorProfile": "Round, balanced, caramel",
+      "imageUrl": "https://www.nespresso.com/ecom/medias/sys_master/public/16322287108126/ispirazione-genova-livanto-XL.png",
+      "intensity": 9,
+      "name": "Livanto",
+      "origin": "South America and East Africa",
+      "price": 0.7
+    },
+    {
+      "categories": [
+        "Intensity",
+        "Flavor"
+      ],
+      "description": "A blend of South American Arabicas, lightly roasted to preserve the delicate aroma of this fine coffee.",
+      "flavorProfile": "Mellow, fruity, delicate",
+      "imageUrl": "https://www.nespresso.com/ecom/medias/sys_master/public/15762782748702/capriccio.png",
+      "intensity": 9,
+      "name": "Capriccio",
+      "origin": "South America and East Africa",
+      "price": 0.7
+    },
+    {
+      "categories": [
+        "Intensity",
+        "Roast"
+      ],
+      "description": "A pure and lightly roasted Arabica from South America, with sweet and fruity notes.",
+      "flavorProfile": "Sweet, fruity, light",
+      "imageUrl": "https://www.nespresso.com/ecom/medias/sys_master/public/14460689088542/volluto-XL.png",
+      "intensity": 9,
+      "name": "Volluto",
+      "origin": "South America and East Africa",
+      "price": 0.7
+    },
+    {
+      "categories": [
+        "Intensity",
+        "Roast"
+      ],
+      "description": "A dark and intense blend of South and Central American Arabicas, with notes of cocoa and toasted cereal.",
+      "flavorProfile": "Intense, full-bodied, cocoa",
+      "imageUrl": "https://www.nespresso.com/ecom/medias/sys_master/public/16058298499102/MicrosoftTeams-image-18-.png",
+      "intensity": 9,
+      "name": "Fortissio Lungo",
+      "origin": "South America and East Africa",
+      "price": 0.85
+    },
+    {
+      "categories": [
+        "Intensity",
+        "Roast"
+      ],
+      "description": "A light and sweet blend of South American Arabicas, with a hint of Robusta for a well-rounded flavor.",
+      "flavorProfile": "Mellow, sweet, balanced",
+      "imageUrl": "https://www.nespresso.com/ecom/medias/sys_master/public/15762782748702/capriccio.png",
+      "intensity": 5,
+      "name": "Capriccio Decaffeinato",
+      "origin": "South America and East Africa",
+      "price": 0.75
+    },
+    {
+      "categories": [
+        "Intensity",
+        "Roast"
+      ],
+      "description": "A pure and lightly roasted Arabica from South America, with sweet and fruity notes, now in decaf.",
+      "flavorProfile": "Sweet, fruity, light",
+      "imageUrl": "https://www.nespresso.com/ecom/medias/sys_master/public/14460689285150/volluto-decaffeinato-XL.png",
+      "intensity": 5,
+      "name": "Volluto Decaffeinato",
+      "origin": "South America and East Africa",
+      "price": 0.75
+    },
+    {
+      "categories": [
+        "Intensity",
+        "Roast"
+      ],
+      "description": "A dark roast of South and Central American Arabicas, with cocoa notes and a hint of cereal for a velvety smoothness, now in decaf.",
+      "flavorProfile": "Intense, creamy, cocoa",
+      "imageUrl": "https://www.nespresso.com/ecom/medias/sys_master/public/16071282294814/MicrosoftTeams-image-21-.png",
+      "intensity": 5,
+      "name": "Arpeggio Decaffeinato",
+      "origin": "South America and East Africa",
+      "price": 0.75
+    },
+    {
+      "categories": [
+        "Intensity",
+        "Roast"
+      ],
+      "description": "A complex and balanced blend of Arabicas from South America and East Africa, with floral and woody notes.",
+      "flavorProfile": "Complex, balanced, floral",
+      "imageUrl": "https://www.nespresso.com/ecom/medias/sys_master/public/16345594724382/tokyo-vivalto-lungo-XL.png",
+      "intensity": 9,
+      "name": "Vivalto Lungo",
+      "origin": "South America and East Africa",
+      "price": 0.8
+    }
+  ]
+}
