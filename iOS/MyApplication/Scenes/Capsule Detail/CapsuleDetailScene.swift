@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct CapsuleDetailScene: View {
+    @ObservedObject private var viewModel: CapsuleDetailViewModel
     @Environment(\.dismiss) var dismiss
-    @State var capsule: Capsule
     
+    
+    init(_ viewModel: CapsuleDetailViewModel){
+        self.viewModel = viewModel
+    }
+
     var body: some View {
         VStack{
-            AsyncImage(url: URL(string: (capsule.heroImageUrl) ?? capsule.imageUrl)){ image in
+            AsyncImage(url: URL(string: (self.viewModel.capsule.heroImageUrl) ?? self.viewModel.capsule.imageUrl)){ image in
                 image.resizable().aspectRatio(contentMode: ContentMode.fit)
             } placeholder: {
                 Image(systemName: "photo")
@@ -28,7 +33,7 @@ struct CapsuleDetailScene: View {
                             .font(.subheadline)
                             .fontWeight(.bold)
 
-                        Text(capsule.flavorProfile)
+                        Text(self.viewModel.capsule.flavorProfile)
                             .font(.body)
 
                         Spacer().frame(height: 8)
@@ -39,7 +44,7 @@ struct CapsuleDetailScene: View {
                             .font(.subheadline)
                             .fontWeight(.bold)
                         
-                        Text(capsule.origin)
+                        Text(self.viewModel.capsule.origin)
                             .font(.body)
                         
                         Spacer().frame(height: 8)
@@ -49,7 +54,7 @@ struct CapsuleDetailScene: View {
                             .font(.subheadline)
                             .fontWeight(.bold)
                         
-                        Text("\(capsule.intensity)")
+                        Text("\(self.viewModel.capsule.intensity)")
                             .font(.body)
                         
                         Spacer().frame(height: 8)
@@ -59,7 +64,7 @@ struct CapsuleDetailScene: View {
                             .font(.subheadline)
                             .fontWeight(.bold)
                         
-                        Text("$\(capsule.price, specifier: "%.2f")")
+                        Text("$\(self.viewModel.capsule.price, specifier: "%.2f")")
                             .font(.body)
                             .fontWeight(.semibold)
                             .foregroundColor(.green)
@@ -71,7 +76,7 @@ struct CapsuleDetailScene: View {
                             .font(.subheadline)
                             .fontWeight(.bold)
                         
-                        Text(capsule.categories.joined(separator: ", "))
+                        Text(self.viewModel.capsule.categories.joined(separator: ", "))
                             .font(.body)
                         
                         Spacer().frame(height: 16)
@@ -81,7 +86,7 @@ struct CapsuleDetailScene: View {
                             .font(.subheadline)
                             .fontWeight(.bold)
                         
-                        Text(capsule.description)
+                        Text(self.viewModel.capsule.description)
                             .font(.body)
                         
                         Spacer().frame(height: 150)
@@ -97,6 +102,7 @@ struct CapsuleDetailScene: View {
 
 struct CapsuleDetailScene_Previews: PreviewProvider {
     static var previews: some View {
-        CapsuleDetailScene(capsule: Capsule())
+        let vm = CapsuleDetailViewModel(capsule: Capsule())
+        CapsuleDetailScene(vm)
     }
 }

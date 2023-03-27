@@ -22,7 +22,7 @@ struct MainViewScene: View {
             Color.gimberBackground().zIndex(0).ignoresSafeArea(.all)
             List {
                 ForEach(viewModel.capsules, id: \.id) { capsule in
-                    NavigationLink(destination:CapsuleDetailScene(capsule: capsule)) {
+                    NavigationLink(destination:CapsuleDetailSceneFactory(capsule: capsule).create()) {
                         CapsuleItem(capsule: capsule)
                     }
                 }
